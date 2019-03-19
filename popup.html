@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cleaner</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Modal Structure */
+        html,
+        body {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14px;
+            min-height: 100px;
+            width: 384px;
+            padding: 0;
+            margin: 10px 0;
+        }
+        img {
+            width: 30px;
+        }
+        .header {
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row header">
+            <div class="col-md-3" style="width: 20%">
+                <img src="icon.png" alt="" class="img-responsive">
+            </div>
+            <div class="col-md-9" style="width: 80%">
+                <h35>Clear history by keyword<span class="version">(1.0.0)</span></h5>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-12">
+                <form action="">
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                        <input id="site" type="text" class="form-control" name="site" placeholder="Enter keyword..">
+                    </div>
+                    <p class="text-center" id="total-main">Total: <span id="total"></span></p>
+                    <div class="btn-group btn-block" role="group">
+                        <button type="button" class="btn btn-primary" id="search">Search</button>
+                        <button type="button" class="btn btn-danger" id="clear">Clear</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>

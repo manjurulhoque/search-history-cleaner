@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "Clean your search history",
+    "description": "Clean Your Browser",
+    "version": "1.0.0",
+    "icons": {
+        "16": "icon.png",
+        "32": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    },
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": ["history"]
+}
