@@ -2,9 +2,9 @@
 
 ### How to use
 
-Click on the extension and it will popup with input field. Enter whatever you want to find in your search history.
-
-Then Click search button and clear button to clear the search history with that keyword
+1. Click on the extension, notice the popup with the "Enter keyword" input field. 
+2. Enter a **keyword** to be located in your search history.
+3. Click both the **Search** button and **Clear** button to clear the search history containing that **keyword**
 
 ## Screenshot
 <img src="screenshot.png">
